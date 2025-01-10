@@ -2,6 +2,7 @@
 using posting.Models.LoaderBot;
 using posting.Models.Users;
 using posting.Services.MongoDBService;
+using posting.Utils.MessageConstructor;
 using System.ComponentModel;
 using System.Security.Cryptography;
 using System.Text;
@@ -24,12 +25,14 @@ namespace posting.Services.LoaderBotService
         CancellationTokenSource cts;
         IMongoDBService mongoDBService;        
         ILogger logger;
+        IMessageConstructor messageConstructor;
         #endregion
 
-        public LoaderBot(LoaderBotModel model, IMongoDBService mongoDBService, ILogger logger)
+        public LoaderBot(LoaderBotModel model, IMongoDBService mongoDBService, IMessageConstructor messageConstructor, ILogger logger)
         {
             Model = model;
             this.mongoDBService = mongoDBService;
+            this.messageConstructor = messageConstructor;   
             this.logger = logger;
         }
 
@@ -105,7 +108,7 @@ namespace posting.Services.LoaderBotService
 
                         logger.LogInformation($"{Username}: {update.Message}");
 
-                        await
+                        //await
                         
                         //foreach (var op in operators)
                         //    await bot.ForwardMessage(op.telegram_id, op.telegram_id, update.Message.Id);

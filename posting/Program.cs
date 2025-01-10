@@ -1,8 +1,11 @@
 
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using posting.Models.LoaderBot;
 using posting.Services.LoaderBotService;
 using posting.Services.MongoDBService;
+using posting.Services.S3Service;
+using posting.Utils.MessageConstructor;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +17,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<List<LoaderBotModel>>(builder.Configuration.GetSection("LoaderBots"));
 
 builder.Services.AddSingleton<IMongoDBService, MongoDBService>();
+builder.Services.AddSingleton<IS3Service, S3Service>();
 
+builder.Services.AddSingleton<IMessageConstructorFactory, MessageConstructorFactory>();
 builder.Services.AddSingleton<ILoaderBotFactory, LoaderBotFactory>();
 
 builder.Services.AddSingleton<LoaderBotService>(); // Один экземпляр сервиса

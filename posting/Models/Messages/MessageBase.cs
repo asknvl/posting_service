@@ -16,7 +16,8 @@ namespace posting.Models.Messages
     {
         public string? text { get; set; }        
         public List<MessageEntity>? entities { get; set; }        
-        public List<MediaItem>? media { get; set; }
+        public string? mediagroup_id { get; set; }
+        public List<MediaItem>? medias { get; set; }
     }
 
     public class MediaItem
