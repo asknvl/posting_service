@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>posting</name>
+    </assembly>
+    <members>
+        <member name="M:posting.Controllers.LoaderBotServiceController.GetLoaderBot(System.Int32)">
+            <summary>        
+            </summary>
+            <param name="direction"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

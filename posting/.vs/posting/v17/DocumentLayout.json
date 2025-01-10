@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\loaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\loaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\models\\messages\\messagebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\messages\\messagebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\utils\\messageconstructor\\imessageconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:utils\\messageconstructor\\imessageconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\s3service\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\s3service\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\s3service\\is3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\s3service\\is3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\postgresdbservice\\ipostgresdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\postgresdbservice\\ipostgresdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\postgresdbservice\\postgresdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\postgresdbservice\\postgresdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\loaderbotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\loaderbotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\loaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\loaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\iloaderbotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\iloaderbotfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\controllers\\loaderbotservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:controllers\\loaderbotservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\posting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:posting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\dtos\\loaderbot\\loaderbotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:dtos\\loaderbot\\loaderbotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\iloaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\iloaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\models\\loaderbot\\loaderbotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\loaderbot\\loaderbotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\mongodbservice\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\mongodbservice\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\mongodbservice\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\mongodbservice\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\models\\directions\\directionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\directions\\directionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\models\\users\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\users\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\services\\loaderbotservice\\iloaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\iloaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\posting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:posting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\work\\raceup\\sources\\posting_service\\posting\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 343,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:07:15.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoaderBotFactory.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotFactory.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\LoaderBotFactory.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotFactory.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\LoaderBotFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:12:28.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageBase.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Messages\\MessageBase.cs",
+              "RelativeDocumentMoniker": "Models\\Messages\\MessageBase.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Messages\\MessageBase.cs",
+              "RelativeToolTip": "Models\\Messages\\MessageBase.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T19:46:58.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ILoaderBotFactory.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotFactory.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\ILoaderBotFactory.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotFactory.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\ILoaderBotFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:11:43.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoaderBotService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotService.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\LoaderBotService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotService.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\LoaderBotService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIA2wEsAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:35:33.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "posting.csproj",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\posting.csproj",
+              "RelativeDocumentMoniker": "posting.csproj",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\posting.csproj",
+              "RelativeToolTip": "posting.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T22:21:37.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DirectionModel.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Directions\\DirectionModel.cs",
+              "RelativeDocumentMoniker": "Models\\Directions\\DirectionModel.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Directions\\DirectionModel.cs",
+              "RelativeToolTip": "Models\\Directions\\DirectionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T21:05:54.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ILoaderBotService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotService.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\ILoaderBotService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotService.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\ILoaderBotService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:56:45.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T12:28:39.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Users\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserModel.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\Users\\UserModel.cs",
+              "RelativeToolTip": "Models\\Users\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T08:32:40.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ILoaderBot.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBot.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\ILoaderBot.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBot.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\ILoaderBot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:15:18.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "posting.http",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\posting.http",
+              "RelativeDocumentMoniker": "posting.http",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\posting.http",
+              "RelativeToolTip": "posting.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-09T06:47:57.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:07:21.579Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 369,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostgresDBService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\PostgresDBService\\PostgresDBService.cs",
+              "RelativeDocumentMoniker": "Services\\PostgresDBService\\PostgresDBService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\PostgresDBService\\PostgresDBService.cs",
+              "RelativeToolTip": "Services\\PostgresDBService\\PostgresDBService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:43:26.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPostgresDBService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\PostgresDBService\\IPostgresDBService.cs",
+              "RelativeDocumentMoniker": "Services\\PostgresDBService\\IPostgresDBService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\PostgresDBService\\IPostgresDBService.cs",
+              "RelativeToolTip": "Services\\PostgresDBService\\IPostgresDBService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:43:08.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IS3Service.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\S3Service\\IS3Service.cs",
+              "RelativeDocumentMoniker": "Services\\S3Service\\IS3Service.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\S3Service\\IS3Service.cs",
+              "RelativeToolTip": "Services\\S3Service\\IS3Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:42:23.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "S3Service.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\S3Service\\S3Service.cs",
+              "RelativeDocumentMoniker": "Services\\S3Service\\S3Service.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\S3Service\\S3Service.cs",
+              "RelativeToolTip": "Services\\S3Service\\S3Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:42:09.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMessageConstructor.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Utils\\MessageConstructor\\IMessageConstructor.cs",
+              "RelativeDocumentMoniker": "Utils\\MessageConstructor\\IMessageConstructor.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Utils\\MessageConstructor\\IMessageConstructor.cs",
+              "RelativeToolTip": "Utils\\MessageConstructor\\IMessageConstructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:38:32.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaderBot.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBot.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\LoaderBot.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBot.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\LoaderBot.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAwwGsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:05:07.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoaderBotServiceController.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Controllers\\LoaderBotServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaderBotServiceController.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Controllers\\LoaderBotServiceController.cs",
+              "RelativeToolTip": "Controllers\\LoaderBotServiceController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:43:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoaderBotDto.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "RelativeToolTip": "Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:27:00.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoaderBotModel.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\LoaderBot\\LoaderBotModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoaderBot\\LoaderBotModel.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Models\\LoaderBot\\LoaderBotModel.cs",
+              "RelativeToolTip": "Models\\LoaderBot\\LoaderBotModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:56:43.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1e810293-bf51-4402-a9d6-a40ca95d580f",
+        "Display": 1,
+        "X": 301,
+        "Y": 155,
+        "Width": 890,
+        "Height": 788,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 504,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T11:56:08.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IMongoDBService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\MongoDBService\\IMongoDBService.cs",
+              "RelativeDocumentMoniker": "Services\\MongoDBService\\IMongoDBService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\MongoDBService\\IMongoDBService.cs",
+              "RelativeToolTip": "Services\\MongoDBService\\IMongoDBService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:59:16.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 165,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MongoDBService.cs",
+              "DocumentMoniker": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\MongoDBService\\MongoDBService.cs",
+              "RelativeDocumentMoniker": "Services\\MongoDBService\\MongoDBService.cs",
+              "ToolTip": "C:\\WORK\\RaceUP\\sources\\posting_service\\posting\\Services\\MongoDBService\\MongoDBService.cs",
+              "RelativeToolTip": "Services\\MongoDBService\\MongoDBService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T19:46:14.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

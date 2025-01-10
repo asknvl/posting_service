@@ -1,0 +1,337 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\services\\loaderbotservice\\loaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\loaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\services\\loaderbotservice\\iloaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\iloaderbotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\controllers\\loaderbotservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:controllers\\loaderbotservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\services\\loaderbotservice\\iloaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\iloaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\models\\loaderbot\\loaderbotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\loaderbot\\loaderbotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\services\\loaderbotservice\\loaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\loaderbotservice\\loaderbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\posting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:posting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\services\\mongodbservice\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:services\\mongodbservice\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\models\\messages\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\messages\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\posting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:posting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\dtos\\loaderbot\\loaderbotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:dtos\\loaderbot\\loaderbotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\models\\directions\\directionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:models\\directions\\directionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|c:\\konovalov\\sources\\posting_service\\posting\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D84304-960C-44BC-B93B-F1108710C4A0}|posting.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 535,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILoaderBotService.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotService.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\ILoaderBotService.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBotService.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\ILoaderBotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:56:45.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoaderBotService.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotService.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\LoaderBotService.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBotService.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\LoaderBotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:35:33.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILoaderBot.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBot.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\ILoaderBot.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\ILoaderBot.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\ILoaderBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:15:18.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:07:15.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MongoDBService.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\MongoDBService\\MongoDBService.cs",
+              "RelativeDocumentMoniker": "Services\\MongoDBService\\MongoDBService.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\MongoDBService\\MongoDBService.cs",
+              "RelativeToolTip": "Services\\MongoDBService\\MongoDBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T19:46:14.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-29T12:28:39.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\Messages\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Messages\\Message.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\Messages\\Message.cs",
+              "RelativeToolTip": "Models\\Messages\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T19:46:58.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "posting.http",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\posting.http",
+              "RelativeDocumentMoniker": "posting.http",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\posting.http",
+              "RelativeToolTip": "posting.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-09T06:47:57.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DirectionModel.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\Directions\\DirectionModel.cs",
+              "RelativeDocumentMoniker": "Models\\Directions\\DirectionModel.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\Directions\\DirectionModel.cs",
+              "RelativeToolTip": "Models\\Directions\\DirectionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T21:05:54.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:07:21.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "posting.csproj",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\posting.csproj",
+              "RelativeDocumentMoniker": "posting.csproj",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\posting.csproj",
+              "RelativeToolTip": "posting.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T22:21:37.887Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 177,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoaderBotServiceController.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Controllers\\LoaderBotServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaderBotServiceController.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Controllers\\LoaderBotServiceController.cs",
+              "RelativeToolTip": "Controllers\\LoaderBotServiceController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwCQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:43:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoaderBotModel.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\LoaderBot\\LoaderBotModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoaderBot\\LoaderBotModel.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Models\\LoaderBot\\LoaderBotModel.cs",
+              "RelativeToolTip": "Models\\LoaderBot\\LoaderBotModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:56:43.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaderBotDto.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "RelativeToolTip": "Dtos\\LoaderBot\\LoaderBotDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:27:00.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:07:02.604Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "05005dba-2c84-43be-9298-9847529d0f4d",
+        "Display": 0,
+        "X": 456,
+        "Y": 119,
+        "Width": 556,
+        "Height": 859,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoaderBot.cs",
+              "DocumentMoniker": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBot.cs",
+              "RelativeDocumentMoniker": "Services\\LoaderBotService\\LoaderBot.cs",
+              "ToolTip": "C:\\KONOVALOV\\Sources\\posting_service\\posting\\Services\\LoaderBotService\\LoaderBot.cs",
+              "RelativeToolTip": "Services\\LoaderBotService\\LoaderBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:15:46.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>posting</name>
+    </assembly>
+    <members>
+        <member name="M:posting.Controllers.LoaderBotServiceController.GetLoaderBot(System.Int32)">
+            <summary>        
+            Returns loader bot instance by direction_id
+            </summary>
+            <param name="direction_id"></param>
+            <returns>Loader bot dto if found</returns>
+        </member>
+        <member name="M:posting.Controllers.LoaderBotServiceController.ToggleLoaderBot(posting.Dtos.LoaderBot.LoaderBotDto)">
+            <summary>
+            Toggles loader bot state
+            </summary>
+            <param name="loaderBotDto">Essential: direction_id, is_running</param>
+            <returns>Updated loader bot dto</returns>        
+        </member>
+        <member name="M:posting.Controllers.UsersController.GetUsers(System.Int32)">
+            <summary>
+            Returnes list of verified bot users by direction_id
+            </summary>
+            <param name="direction_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:posting.Controllers.UsersController.RemoveUser(System.Int32,System.String)">
+            <summary>
+            Deletes user by id, returns updated user list by direction_id
+            </summary>
+            <param name="direction_id"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
