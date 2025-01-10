@@ -19,7 +19,7 @@ builder.Services.Configure<List<LoaderBotModel>>(builder.Configuration.GetSectio
 builder.Services.AddSingleton<IMongoDBService, MongoDBService>();
 builder.Services.AddSingleton<IS3Service, S3Service>();
 
-builder.Services.AddSingleton<IMessageConstructorFactory, MessageConstructorFactory>();
+builder.Services.AddSingleton<IMessageConstructor, MessageConstructor>();
 builder.Services.AddSingleton<ILoaderBotFactory, LoaderBotFactory>();
 
 builder.Services.AddSingleton<LoaderBotService>(); // Один экземпляр сервиса

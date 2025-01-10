@@ -20,14 +20,14 @@ namespace posting.Services.LoaderBotService
 
         public LoaderBotService(IOptions<List<LoaderBotModel>> loaderBotModels,
                                 ILoaderBotFactory loaderBotFactory,
-                                IMongoDBService mongoDBService,                                
-                                IMessageConstructorFactory messageConstructorFactory,
+                                IMongoDBService mongoDBService,  
+                                IMessageConstructor messageConstructor,
                                 ILogger<LoaderBotService> logger)
         {            
             this.loaderBotModels = loaderBotModels.Value;
             this.loaderBotFactory = loaderBotFactory;
-            this.mongoDBService = mongoDBService;
-            messageConstructor = messageConstructorFactory.Create();
+            this.mongoDBService = mongoDBService;            
+            this.messageConstructor = messageConstructor;
             this.logger = logger;
         }
 

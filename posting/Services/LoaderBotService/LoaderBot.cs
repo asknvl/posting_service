@@ -108,6 +108,8 @@ namespace posting.Services.LoaderBotService
 
                         logger.LogInformation($"{Username}: {update.Message}");
 
+                        var m = messageConstructor.Create(update.Message);
+
                         //await
                         
                         //foreach (var op in operators)
