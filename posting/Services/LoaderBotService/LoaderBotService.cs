@@ -2,6 +2,7 @@
 using posting.Dtos.LoaderBot;
 using posting.Models.LoaderBot;
 using posting.Services.MongoDBService;
+using posting.Utils.MessageConstructor;
 using System.Reflection;
 
 namespace posting.Services.LoaderBotService
@@ -13,17 +14,20 @@ namespace posting.Services.LoaderBotService
         readonly ILoaderBotFactory loaderBotFactory;
         readonly ILogger logger;
         readonly List<LoaderBotModel> loaderBotModels;
-        readonly IMongoDBService mongoDBService;        
+        readonly IMessageConstructor messageConstructor;
+        readonly IMongoDBService mongoDBService;           
         #endregion
 
         public LoaderBotService(IOptions<List<LoaderBotModel>> loaderBotModels,
                                 ILoaderBotFactory loaderBotFactory,
                                 IMongoDBService mongoDBService,                                
+                                IMessageConstructorFactory messageConstructorFactory,
                                 ILogger<LoaderBotService> logger)
         {            
             this.loaderBotModels = loaderBotModels.Value;
             this.loaderBotFactory = loaderBotFactory;
-            this.mongoDBService = mongoDBService;            
+            this.mongoDBService = mongoDBService;
+            messageConstructor = messageConstructorFactory.Create();
             this.logger = logger;
         }
 
@@ -72,8 +76,8 @@ namespace posting.Services.LoaderBotService
                             await found.Start();
                     }
                     else
-                    {
-                        var loaderBot = loaderBotFactory.Create(model, mongoDBService, logger);
+                    {                        
+                        var loaderBot = loaderBotFactory.Create(model, mongoDBService, messageConstructor, logger);
                         loaderBots.Add(loaderBot);
                         await loaderBot.Start();
                     }

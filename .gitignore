@@ -1,2 +1,4 @@
 appsettings.*.json
 posting/appsettings.json
+
+*.vsidx

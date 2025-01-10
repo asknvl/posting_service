@@ -1,10 +1,11 @@
 ﻿using posting.Models.LoaderBot;
 using posting.Services.MongoDBService;
+using posting.Utils.MessageConstructor;
 
 namespace posting.Services.LoaderBotService
 {
     public interface ILoaderBotFactory
     {
-        ILoaderBot Create(LoaderBotModel model, IMongoDBService mongoDBService, ILogger logger);
+        ILoaderBot Create(LoaderBotModel model, IMongoDBService mongoDBService, IMessageConstructor messageConstructor, ILogger logger);
     }
 }
