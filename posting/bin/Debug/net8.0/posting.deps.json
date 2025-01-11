@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "posting/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.411.5",
           "MongoDB.Driver": "3.1.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Swashbuckle.AspNetCore.Annotations": "7.2.0",
@@ -15,6 +16,25 @@
         },
         "runtime": {
           "posting.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.400.77": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.77"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.411.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.77"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.411.5"
+          }
         }
       },
       "DnsClient/1.6.1": {
@@ -211,6 +231,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.400.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpTOkzkqawZpCfGumTPTL5vMc/6VnxoQKAlhZLHliLiwRFiTMc+8BAaJ8aiAL7KzqFN1jqZ6EaQD9AYGoKe7wg==",
+      "path": "awssdk.core/3.7.400.77",
+      "hashPath": "awssdk.core.3.7.400.77.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.411.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GAJrQaL3+8nLyfHy5byQXrCtud+9cfvfL5PX6Ts0boVAKtPO3aSRVVn5mR4KhqNbWiVK5Ckm3a81vTYO/O1WuQ==",
+      "path": "awssdk.s3/3.7.411.5",
+      "hashPath": "awssdk.s3.3.7.411.5.nupkg.sha512"
     },
     "DnsClient/1.6.1": {
       "type": "package",

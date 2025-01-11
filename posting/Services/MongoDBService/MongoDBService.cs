@@ -70,6 +70,14 @@ namespace posting.Services.MongoDBService
             return await GetUsers(direction_id);
         }
         #endregion
+
+        #region messages
+        public async Task<MessageBase> GetMessageByGroupId(string groupId)
+        {
+            var filter = Builders<MessageBase>.Filter.Eq(m => m.telegram_data.mediagroup_id, groupId);
+            return await messages.Find(filter).FirstOrDefaultAsync();
+        }
+        #endregion
         #endregion
     }
 }

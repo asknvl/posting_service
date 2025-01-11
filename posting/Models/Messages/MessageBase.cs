@@ -13,7 +13,7 @@ namespace posting.Models.Messages
     }
 
     public class TelegramData
-    {
+    {   
         public string? text { get; set; }        
         public List<MessageEntity>? entities { get; set; }        
         public string? mediagroup_id { get; set; }
@@ -22,9 +22,12 @@ namespace posting.Models.Messages
 
     public class MediaItem
     {
-        public string s3_file_id { get; set; }
-        public string s3_url { get; set; }  
-        public string caption { get; set; }
-        public List<MessageEntity> entities { get; set; }
+        public string storage_id { get; set; }
+        public string url { get; set; }  
+        public string? caption { get; set; }
+        public List<MessageEntity>? entities { get; set; }
+        public int? file_size { get; set; }
+        public int? height { get; set; }
+        public int? width { get; set; }
     }
 }

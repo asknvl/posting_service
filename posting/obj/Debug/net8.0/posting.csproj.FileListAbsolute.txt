@@ -42,3 +42,5 @@ C:\WORK\RaceUP\sources\posting_service\posting\obj\Debug\net8.0\posting.pdb
 C:\WORK\RaceUP\sources\posting_service\posting\obj\Debug\net8.0\posting.genruntimeconfig.cache
 C:\WORK\RaceUP\sources\posting_service\posting\obj\Debug\net8.0\ref\posting.dll
 C:\WORK\RaceUP\sources\posting_service\posting\obj\Debug\net8.0\posting.sourcelink.json
+C:\WORK\RaceUP\sources\posting_service\posting\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\WORK\RaceUP\sources\posting_service\posting\bin\Debug\net8.0\AWSSDK.S3.dll
