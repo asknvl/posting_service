@@ -22,10 +22,11 @@ namespace posting.Utils.MessageConstructor
         }
 
         #region helpers
-        async Task downoadFile(string fileId)
+        string getExtensionFromFilePath(string filepath)
         {
-            await Task.CompletedTask;
-        }
+            var splt = filepath.Split('.'); 
+            return splt[1];
+        }        
         #endregion
 
         #region public
@@ -33,7 +34,12 @@ namespace posting.Utils.MessageConstructor
         {
             MessageBase message;
             string? fileId = null;
-            
+            string? caption = null;
+            MessageEntity[]? entities = null;
+            int? file_size = null;
+            int? height = null;
+            int? width = null;
+
             if (string.IsNullOrEmpty(input.MediaGroupId))
                 message = new MessageBase();
             else
@@ -41,8 +47,18 @@ namespace posting.Utils.MessageConstructor
                 message = await mongoDBService.GetMessageByGroupId(input.MediaGroupId);
 
                 if (message == null)
+                {
+                    Debug.WriteLine($"grouped new");
                     message = new MessageBase();
+                } else
+                {
+                    Debug.WriteLine($"grouped add");
+                }
             }
+
+            message.telegram_data.text = input.Text;
+            message.telegram_data.entities = input.Entities;
+            message.telegram_data.mediagroup_id = input.MediaGroupId;
 
             switch (input.Type)
             {
@@ -51,18 +67,26 @@ namespace posting.Utils.MessageConstructor
 
                 case MessageType.Photo:
                     fileId = input.Photo.Last().FileId;
+                    caption = input.Caption;
+                    entities = input.CaptionEntities;                                        
                     break;
 
                 case MessageType.Video:
                     fileId = input.Video.FileId;
+                    caption = input.Caption;
+                    entities = input.CaptionEntities;
+                    height = input.Video.Height;
+                    width = input.Video.Width;
                     break;
 
                 case MessageType.Document:
                     fileId = input.Document.FileId;
+                    caption = input.Caption;
+                    entities = input.CaptionEntities;
                     break;
 
                 case MessageType.VideoNote:
-                    fileId = input.VideoNote.FileId;
+                    fileId = input.VideoNote.FileId;                    
                     break;
 
                 case MessageType.Voice:
@@ -76,13 +100,32 @@ namespace posting.Utils.MessageConstructor
             if (!string.IsNullOrEmpty(fileId))
             {
                 if (message.telegram_data.medias == null)
+                {
+                    Debug.WriteLine($"init medias");
                     message.telegram_data.medias = new List<MediaItem>();
+                }
 
                 using (var stream = new MemoryStream())
                 {
                     var file = await bot.GetInfoAndDownloadFile(fileId, stream);
+                    var bytes = stream.ToArray();
+                    var s3info = await s3Service.Upload(bytes, getExtensionFromFilePath(file.FilePath));
+
+                    Debug.WriteLine($"add media");
+
+                    message.telegram_data.medias.Add(new MediaItem()
+                    {
+                        storage_id = s3info.storage_id,
+                        url = s3info.url,
+                        caption = caption,
+                        entities = entities,
+                        file_size = file.FileSize,                        
+                        
+                    }); 
                 }
             }
+
+            await mongoDBService.SaveMessage(message);  
 
             return message;
         }

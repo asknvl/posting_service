@@ -108,7 +108,7 @@ namespace posting.Services.LoaderBotService
 
                         logger.LogInformation($"{Username}: {update.Message}");
 
-                        var m = messageConstructor.Create(bot, update.Message);
+                        var m = await messageConstructor.Create(bot, update.Message);
 
                         //await
                         

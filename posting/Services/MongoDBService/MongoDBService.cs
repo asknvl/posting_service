@@ -77,6 +77,12 @@ namespace posting.Services.MongoDBService
             var filter = Builders<MessageBase>.Filter.Eq(m => m.telegram_data.mediagroup_id, groupId);
             return await messages.Find(filter).FirstOrDefaultAsync();
         }
+
+        public async Task SaveMessage(MessageBase message)
+        {
+            var filter = Builders<MessageBase>.Filter.Eq(m => m.id, message.id);
+            await messages.ReplaceOneAsync(filter, message, new ReplaceOptions { IsUpsert = true });
+        }
         #endregion
         #endregion
     }

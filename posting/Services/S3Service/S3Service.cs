@@ -15,6 +15,7 @@ namespace posting.Services.S3Service
             url = config["S3:ServiceURL"];
             user = config["S3:user"];
             password = config["S3:password"];
+            bucket = config["S3:Bucket"];
 
             client = new AmazonS3Client(
 
